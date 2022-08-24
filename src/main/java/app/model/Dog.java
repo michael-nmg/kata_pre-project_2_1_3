@@ -1,10 +1,8 @@
 package app.model;
 
 import org.springframework.stereotype.Component;
-import org.springframework.context.annotation.Primary;
 
-@Component
-@Primary
+@Component("dog")
 public class Dog extends Animal {
     @Override
     public String toString() {
